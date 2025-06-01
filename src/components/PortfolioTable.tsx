@@ -8,7 +8,6 @@ import { useEffect, useState } from "react";
 import { StockData } from "../types/portfolio";
 import { fetchPortfolio } from "../lib/api";
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from "recharts";
-import "@/styles/globals.css";
 
 const columnHelper = createColumnHelper<StockData>();
 
