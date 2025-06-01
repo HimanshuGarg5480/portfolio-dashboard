@@ -265,6 +265,7 @@ async function fetchStockData(stock: stockDataType) {
     } catch (err) {
       // continue to next suffix
       console.error(
+        err,
         `Yahoo data fetch failed for ${stock.name} (${stock.exchange}${suffix})`
       );
     }
